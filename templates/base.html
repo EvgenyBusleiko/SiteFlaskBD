@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/static/assets/styles/styles.css">
+<title>{{ title }}</title>
+</head>
+<body>
+{% block menu %}
+<nav >
+    <ul class="menu">
+        <li><a href="{{ url_for('main') }}">Главная страница</a></li>
+        <li><a href="{{ url_for('register') }}">Регистрация</a></li>
+        <li><a href="{{ url_for('showbase') }}">Просмотреть базу</a></li>
+
+    </ul>
+</nav>
+{% endblock %}
+
+
+{% block content %}
+
+{% endblock %}
+<p class="menu">Пользуйтесь на здоровье =) &copy;</p>
+<script src="/static/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    
+    align-items: end;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+.pictures {
+    display: flex;
+    justify-content: space-evenly;
+}
+a:visited 
+{
+    text-decoration: none;
+    decoration: none; 
+}
+.input_form{
+display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-evenly;
+
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}

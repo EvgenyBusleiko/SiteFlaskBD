@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Рады приветствовать Вас, {{ context }}, на главной странице! </h1>
+    <img class='menu' src="/static/image/4269.jpg" alt="Моё фото" width="400" height="300">
+<form action="/forward/" method="post">
+{{ form.csrf_token }}
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+  <button name="forward" type="submit">Посмотреть содержимое базы</button>
+</form>
+
+{% endblock %}
